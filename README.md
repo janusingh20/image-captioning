@@ -63,13 +63,6 @@ python test_caption.py --image sample_images/your_image.jpg   # single image
 ```
 
 ---
-
-## 🚀 Improve Quality
-* **More data:** replace `sample_images/` with thousands of COCO images.  
-* **Attention:** attend over the 8×8 feature map instead of global pooling.  
-* **Beam search:** use beam width 3 or 5 during decoding for smoother captions.  
-* **Regularization:** add dropout / label smoothing to reduce repetition.
-
 ---
 
 ## 📝 Requirements
