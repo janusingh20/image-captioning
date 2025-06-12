@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtualenv
+.venv/
+env/
+
+# Data & models
+annotations/
+train2014/
+features/
+training_data/
+prepared_data/
+image_caption_model.h5
+*.zip
+
+# OS
+.DS_Store
